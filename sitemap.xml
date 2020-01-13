@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://jaif2019.github.io/index.html</loc>
+        <lastmod>Mon, 13 Jan 2020 08:23:13 +0100</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://jaif2019.github.io/infos-pratiques.html</loc>
+        <lastmod>Mon, 13 Jan 2020 08:23:13 +0100</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://jaif2019.github.io/inscription.html</loc>
+        <lastmod>Mon, 13 Jan 2020 08:23:13 +0100</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://jaif2019.github.io/programme-draft.html</loc>
+        <lastmod>Mon, 13 Jan 2020 08:23:13 +0100</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://jaif2019.github.io/programme.html</loc>
+        <lastmod>Mon, 13 Jan 2020 08:23:13 +0100</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
