@@ -49,7 +49,7 @@
 <p><em>Etienne Boespflug (Université Grenoble Alpes / Vérimag)</em>. Analyse et placement de contremesures logicielles contre l’injection de faute en multi-faute. [<a href="#boespflug">résumé</a>]</p>
 <p><em>Jean-Max Dutertre (École des Mines de Saint-Etienne - Gardanne)</em>. Discussion of the laser and EM Instruction Skip Fault Models. [<a href="#dutertre">résumé</a>]</p>
 <p><em>Christophe Evrard (ARM)</em>. A journey to Soft IP Common Criteria Certification.</p>
-<p><em>Yliès Falcone (Université Grenoble Alpes / INRIA)</em>. Detecting and Mitigating Fault-injection Attacks at Runtime.</p>
+<p><em>Yliès Falcone (Université Grenoble Alpes / INRIA)</em>. Detecting Fault-injection Attacks at Runtime. [<a href="#falcone">résumé</a>]</p>
 <p><em>Johan Laurent (LCIS)</em>. Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling. [<a href="#laurent">résumé</a>]</p>
 <p><em>José Lopes-Esteves (ANSSI)</em>. AGREMI, EMFI et CEM.</p>
 <p><em>Thomas Trouchkine (ANSSI)</em>. Perturbation attacks on modern CPU, from the fault model to the exploitation.</p>
@@ -65,8 +65,9 @@
 <h3 id="#dutertre">Discussion of the laser and EM Instruction Skip Fault Models</h3>
 <p><em>Jean-Max Dutertre (École des Mines de Saint-Etienne - Gardanne)</em>, Alexandre Menu, Timothé Riom, Olivier Potin, Jean-Baptiste Rigaud.</p>
 <p><em>Résumé</em>. Nous proposons dans cette présentation une discussion du modèle de faute associé aux sauts d’instructions dans les microcontroleurs. Nous décrivons les caractéristiques principales des sauts d’instructions obtenus expérimentalement à partir de pertubations laser ou electromagnétique. La connaissance des caractéristiques des fautes pouvant être obtenues (répétitivité, étendue, etc.) est essentielle pour les travaux de modélisation des attaques et la mise au point de contre-mesures.</p>
-<h3 id="falcone">Detecting and Mitigating Fault-injection Attacks at Runtime</h3>
+<h3 id="falcone">Detecting Fault-injection Attacks at Runtime</h3>
 <p><em>Yliès Falcone (INRIA / Corse)</em></p>
+<p><em>Résumé</em>. We present an approach to detect fault-injection attacks at runtime. Our approach is based on the principles of Runtime Verification, which is a lightweight yet formal and rigorous verification technique. As such, we use a formal model of an attacker who can invert tests and insert arbitrary jumps in the control flow of a program. We define runtime verification monitors, which detect the fault injections performed by such attacker. Runtime verification monitors offer several advantages. The code implementing a monitor is small compared to the entire application code. Monitors have a formal semantics; we prove that they effectively detect attacks. Each monitor is a module dedicated to the detection of an attack and it can be deployed as needed to secure the application. We target the Java ecosystem and overview an instrumentation framework allowing to automatically instrument an application and deploy monitors. We present preliminary evaluation results on some Java applications. Finally, we outline some avenues for future work including the mitigation of attacks with monitors.</p>
 <p><em>Bio</em>. Yliès Falcone received the Master degree (2006) and PhD (2009) in computer science from the University of Grenoble at Vérimag Laboratory. His research interests concern formal software engineering and runtime validation techniques for various application domains, i.e. techniques aiming at evaluating whether a system meets a set of desired properties at runtime. He is a member of the Steering Committees of the Runtime Verification conference and the Software Verification and Testing track of the ACM Symposium on Applied Computing. He has cofounded the competition of tools on Runtime Verification. He was an invited researcher in several places such as NASA JPL in Pasadena (USA), NICTA Canberra (Australia), Manchester University and University of Illinois at Urbana Champaign (USA). Since September 2011, he is an associate professor at University of Grenoble and a researcher at Laboratory of Informatics Grenoble.</p>
 <h3 id="laurent">Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling</h3>
 <p><em>Johan Laurent (LCIS)</em></p>
@@ -93,9 +94,9 @@
           <a href="https://github.com/jaif2020/website/commits/deploy">
             Page last modified
             
-            by commit 70646c7,
+            by commit 803bdc7,
             
-            Thu, 13 Feb 2020 12:56:14 +0100
+            Wed, 19 Feb 2020 21:31:37 +0100
           </a>
           
         </p>
